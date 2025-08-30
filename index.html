@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Resumo do Curso de HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        section {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .voltar {
+            display: block;
+            margin-top: 15px;
+            text-align: right;
+            font-weight: bold;
+            text-decoration: none;
+            color: #007BFF;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 4px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1 id="inicio">Meu Resumo Completo do Curso de HTML</h1>
+        <p>Esta página é um resumo de tudo que aprendi. A ideia é explicar cada conceito de forma simples, como se estivesse ensinando para alguém que está começando agora.</p>
+
+        <h2>Índice do Curso</h2>
+        <ol>
+            <li><a href="#aula1">Aula 1: O que é HTML e para que servem as Tags?</a></li>
+            <li><a href="#aula2">Aula 2: A Estrutura Básica de uma Página</a></li>
+            <li><a href="#aula3">Aula 3: Trabalhando com Textos e Parágrafos</a></li>
+            <li><a href="#aula4">Aula 4: Formatando Textos e Dando Ênfase</a></li>
+            <li><a href="#aula5">Aula 5: Criando Listas</a></li>
+            <li><a href="#aula6">Aula 6: Links e Navegação</a></li>
+            <li><a href="#referencias">Referências para Estudo</a></li>
+        </ol>
+        <hr>
+
+        <section id="aula1">
+            <h2>Aula 1: O que é HTML e para que servem as Tags?</h2>
+            <p>
+                <strong>O que foi entendido:</strong> Pense no HTML como o "esqueleto" de um site. Ele não é uma linguagem de programação (não tem lógica complexa), mas sim uma <strong>linguagem de marcação</strong>. Sua função é organizar o conteúdo e dizer ao navegador o que cada parte significa.
+            </p>
+            <p>
+                Para fazer isso, usamos as <strong>Tags</strong>. Uma tag é como uma etiqueta que colocamos em um conteúdo. Por exemplo, a tag <code>&lt;p&gt;</code> diz ao navegador: "Isto aqui é um parágrafo". A tag <code>&lt;h1&gt;</code> diz: "Isto é o título mais importante da página". O navegador lê essas etiquetas e monta a página visualmente para o usuário.
+            </p>
+            <a href="#inicio" class="voltar">Voltar ao topo &uarr;</a>
+        </section>
+
+        <section id="aula2">
+            <h2>Aula 2: A Estrutura Básica de uma Página</h2>
+            <p>
+                <strong>O que foi entendido:</strong> Toda página HTML segue uma mesma receita de bolo, uma estrutura fundamental. Ela sempre terá estas partes:
+            </p>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;!-- Configurações da página (não visíveis) --&gt;
+        &lt;title&gt;Título da Aba do Navegador&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;!-- Todo o conteúdo visível vai aqui --&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+            <ul>
+                <li><code>&lt;!DOCTYPE html&gt;</code>: Avisa o navegador que estamos usando a versão mais recente do HTML.</li>
+                <li><code>&lt;html&gt;</code>: É a "caixa" que guarda tudo.</li>
+                <li><code>&lt;head&gt;</code>: A "cabeça" da página. Guarda informações que o usuário não vê diretamente, como o título da aba (<code>&lt;title&gt;</code>), links para CSS, etc.</li>
+                <li><code>&lt;body&gt;</code>: O "corpo" da página. Tudo que você quer que apareça para o usuário (textos, imagens, links) vai aqui dentro.</li>
+            </ul>
+            <a href="#inicio" class="voltar">Voltar ao topo &uarr;</a>
+        </section>
+
+        <section id="aula3">
+            <h2>Aula 3: Trabalhando com Textos e Parágrafos</h2>
+            <p>
+                <strong>O que foi entendido:</strong> Para organizar textos, as duas tags mais importantes são as de título (<code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code>) e a de parágrafo (<code>&lt;p&gt;</code>).
+            </p>
+            <p>
+                A tag <code>&lt;p&gt;</code> é usada para criar um parágrafo. Cada vez que você usa <code>&lt;p&gt;</code>, o navegador automaticamente cria um bloco de texto com um espaçamento antes e depois, separando-o do resto. Simples assim.
+            </p>
+            <p>
+                Já os títulos criam uma hierarquia. Pense em um livro: você tem o título do livro (<code>&lt;h1&gt;</code>), os títulos dos capítulos (<code>&lt;h2&gt;</code>) e os subtítulos dentro dos capítulos (<code>&lt;h3&gt;</code>, e assim por diante). Usar essa hierarquia corretamente ajuda tanto na organização visual quanto na otimização para mecanismos de busca como o Google.
+            </p>
+            <a href="#inicio" class="voltar">Voltar ao topo &uarr;</a>
+        </section>
+        
+        <section id="aula4">
+            <h2>Aula 4: Formatando Textos e Dando Ênfase</h2>
+            <p>
+                <strong>O que foi entendido:</strong> Além de parágrafos e títulos, podemos formatar pequenas partes do texto para dar ênfase ou um significado especial.
+            </p>
+            <ul>
+                <li><code>&lt;strong&gt;</code> e <code>&lt;b&gt;</code>: Deixam o texto em <strong>negrito</strong>. <code>&lt;strong&gt;</code> indica que o texto tem grande importância.</li>
+                <li><code>&lt;i&gt;</code> e <code>&lt;em&gt;</code>: Deixam o texto em <i>itálico</i>. <code>&lt;i&gt;</code> é para termos técnicos, e <code>&lt;em&gt;</code> para dar ênfase.</li>
+                <li><code>&lt;mark&gt;</code>: Funciona como um <mark>marca-texto</mark>.</li>
+                <li><code>&lt;small&gt;</code>: <small>Para textos menores, como notas de rodapé.</small></li>
+                <li><code>&lt;u&gt;</code>: Para <u>sublinhar</u> um texto.</li>
+                <li><code>&lt;del&gt;</code>: Para mostrar um texto que foi <del>removido</del>.</li>
+            </ul>
+            <a href="#inicio" class="voltar">Voltar ao topo &uarr;</a>
+        </section>
+
+        <section id="aula5">
+            <h2>Aula 5: Criando Listas</h2>
+            <p>
+                <strong>O que foi entendido:</strong> Listas são essenciais para organizar informações. Existem dois tipos principais:
+            </p>
+            <p>
+                <strong>1. Listas Não-Ordenadas (<code>&lt;ul&gt;</code>):</strong> Usamos quando a ordem dos itens não importa. O navegador coloca marcadores (bolinhas) em cada item. Cada item da lista é definido pela tag <code>&lt;li&gt;</code> (List Item).
+            </p>
+            <p>
+                <strong>2. Listas Ordenadas (<code>&lt;ol&gt;</code>):</strong> Usamos para uma sequência de passos, onde a ordem é importante (ex: uma receita). O navegador numera os itens automaticamente (1, 2, 3...). Cada item também é definido com a tag <code>&lt;li&gt;</code>.
+            </p>
+            <a href="#inicio" class="voltar">Voltar ao topo &uarr;</a>
+        </section>
+
+        <section id="aula6">
+            <h2>Aula 6: Links e Navegação</h2>
+            <p>
+                <strong>O que foi entendido:</strong> A "mágica" da web está nos links! A tag para criar um link é a <code>&lt;a&gt;</code> (de "âncora").
+            </p>
+            <p>
+                Ela precisa do atributo <code>href</code> (hypertext reference) para saber para onde o link deve levar. Exemplo: <code>&lt;a href="https://www.google.com"&gt;Clique aqui&lt;/a&gt;</code>.
+            </p>
+            <p>
+                Um truque muito útil é o atributo <code>target="_blank"</code>. Se você adicioná-lo à tag <code>&lt;a&gt;</code>, o link será aberto em uma nova aba do navegador, o que é ótimo para links externos, pois mantém o usuário na sua página.
+            </p>
+            <a href="#inicio" class="voltar">Voltar ao topo &uarr;</a>
+        </section>
+        
+        <section id="referencias">
+            <h2>Referências para Estudo</h2>
+            <p>Aqui estão alguns links excelentes e confiáveis para continuar aprendendo e tirar dúvidas sobre HTML:</p>
+            <ul>
+                <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs (Mozilla)</a> - Considerada a "bíblia" da documentação web. É a fonte mais completa e confiável.</li>
+                <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a> - Ótimo para iniciantes, com exemplos interativos fáceis de testar.</li>
+                <li><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" target="_blank">freeCodeCamp</a> - Oferece um currículo completo e gratuito de desenvolvimento web, incluindo HTML.</li>
+            </ul>
+            <a href="#inicio" class="voltar">Voltar ao topo &uarr;</a>
+        </section>
+
+    </div>
+</body>
+</html>
