@@ -5,7 +5,8 @@ A página foi estruturada como um guia de estudos pessoal, com explicações did
 
 ## 🎯 Objetivo do Projeto
 
-O objetivo principal foi criar um material de consulta prático, aplicando todo o conteúdo estudado em um único lugar. O desafio consistia em organizar o conhecimento em formato de "aulas", com explicações próprias, como se estivesse ensinando o conteúdo a um iniciante.
+O objetivo principal foi criar um material de consulta prático, aplicando todo o conteúdo estudado em um único lugar. 
+O desafio consistia em organizar o conhecimento em formato de "aulas", com explicações próprias, como se estivesse ensinando o conteúdo a um iniciante.
 
 ## ✨ Estrutura da Página
 
@@ -31,7 +32,7 @@ Como este é um projeto front-end simples, não há necessidade de instalação 
     git clone https://github.com/welitonrangel/desafio-html.git
     ```
 2.  **Navegue até a pasta do projeto.**
-3.  **Abra o arquivo `resumo-curso.html`** diretamente no seu navegador de preferência (Google Chrome, Firefox, etc.).
+3.  **Abra o arquivo `index.html`** diretamente no seu navegador de preferência (Google Chrome, Firefox, etc.).
 
 E pronto! Você verá a página de resumo completa.
 
